@@ -43,6 +43,8 @@ class BaseController extends Controller
 		// $this->session = \Config\Services::session();
 
 		$this->name = "Mutiara Wid";
+
+		$this->db = db_connect();
 	}
 
 }

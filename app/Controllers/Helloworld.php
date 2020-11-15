@@ -2,12 +2,15 @@
 
 class Helloworld extends BaseController {
 
-    public function index($name, $npm) 
+    public function index() 
     {
         // echo $this->name;
-        echo $name ."<br>";
-        echo $npm;
+        // echo $name ."<br>";
+        // echo $npm;
         // echo "Hello Mutiara";
+        $query = $this->db->query("SELECT * FROM users");
+        $row = $query->getRow();
+        dd($row);
     }
 
     public function show()
