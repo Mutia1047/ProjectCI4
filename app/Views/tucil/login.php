@@ -46,12 +46,12 @@
           <div class="card">
             <div class="card-header bg-transparent mb-0"><h5 class="text-center">Silakan <span class="font-weight-bold text-primary">LOGIN</span></h5></div>
             <div class="card-body">
-              <form action="">
+              <form action="action.php">
                 <div class="form-group">
                   <input type="text" name="" class="form-control" placeholder="Username">
                 </div>
                 <div class="form-group">
-                  <input type="text" name="" class="form-control" placeholder="Password">
+                  <input type="password" name="" class="form-control" placeholder="Password">
                 </div>
                 <div class="form-group custom-control custom-checkbox">
                   <input type="checkbox" class="custom-control-input" id="customControlAutosizing">

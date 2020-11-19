@@ -41,7 +41,7 @@
     <br>
     <h4 class="card-header bg-primary text-white ">REGISTER Form</h4>
     <div class="card-body">
-      <form action="action.php">
+      <form method="post" action="action.php">
         <div class="form-group">
           <label for="nama">Nama Lengkap</label>
           <input type="text" class="form-control" id="nama">
@@ -58,9 +58,10 @@
           <label for="password">Password</label>
           <input type="password" class="form-control" id="Password">
         </div>
-        <button type="submit" class="btn btn-primary">Register</button>
+        <button type="submit" value="Register" class="btn btn-primary">Register</button>
       </form>
     </div>
+    header( "Location: loginok.php" );
   </div>
 </div>
 
