@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-					          	<a class="nav-link" href="<?= base_url('dasbor') ?>">Dashboard</a>
+					          	<a class="nav-link" href="<?= base_url('admin') ?>">Dashboard</a>
 					          </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">Tentang Komunitas</a>

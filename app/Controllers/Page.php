@@ -2,9 +2,9 @@
 
 class Page extends BaseController
 {
-	public function dasbor()
+	public function admin()
 	{
-		echo view("tucil/dasbor");
+		echo view("tucil/admin");
 	}
 
 	public function about()

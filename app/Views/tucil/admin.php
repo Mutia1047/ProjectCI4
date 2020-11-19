@@ -26,8 +26,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-						<a class="nav-link" href="<?= base_url('dasbor') ?>">Dashboard</a>
-					</li>
+					          	<a class="nav-link" href="<?= base_url('admin') ?>">Dashboard</a>
+					          </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('about') ?>">Tentang Komunitas</a>
                     </li>
@@ -56,7 +56,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">ADMIN</a></li>
-              <li class="breadcrumb-item active">Dashboard</li>
+              <li class="breadcrumb-item active">Mutiara Widdi</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
